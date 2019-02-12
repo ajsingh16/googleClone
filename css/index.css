@@ -1,0 +1,114 @@
+
+/* -------- GLOBAL STYLES -------- */
+
+body {
+	margin: 0;
+}
+
+a.g-links {
+	padding: 0 10px;
+	color: #333333;
+	text-decoration: none;
+	font-size: 14px;
+}
+a.g-links:hover {
+	text-decoration: underline;
+}
+
+/* -------- PAGE HEADER -------- */
+
+header {
+	height: 60px;
+}
+nav#left-nav {
+	float: left;
+	margin-top: 20.855px;
+	margin-bottom: 20.855px;
+}
+nav#right-nav {
+	float: right;
+	margin: 13.355px 10px 13.355px 0;
+}
+a.g-image-links {
+	position: relative;
+	top: 7px;
+}
+a.g-image-links:hover {
+	text-decoration: none;
+}
+img#google-apps-img {
+	width: 25px;
+}
+img#google-notifications-img {
+	width: 28px;
+}
+button#sign-in-button {
+	border: none;
+    padding: 10px 15px;
+    font-size: 12.5px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #198cf3;
+    cursor: pointer;
+}
+
+/* -------- MAIN CONTENT -------- */
+
+main {
+	clear: both;
+}
+section#google-search-wrapper {
+	text-align: center;
+	margin-top: 100px;
+}
+img#google-img {
+	display: block;
+	margin: 0 auto;
+	width: 250px;
+}
+section#search-container {
+	width: 526px;
+	margin: 20px auto;
+	position: relative;
+}
+input#search-input {
+	width: 500px;
+	height: 35px;
+	font-size: 16px;
+	padding: 0 10px;
+	outline: none;
+}
+img#microphone-img {
+	width: 14px;
+    position: absolute;
+    bottom: 9px;
+    right: 12px;
+}
+button.google-search-button {
+    border: none;
+    margin: 0 5px;
+	padding: 10px 15px;
+    font-size: 12.5px;
+    font-weight: bold;
+    color: #636363;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* -------- PAGE FOOTER -------- */
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #eee;
+}
+section#left-footer {
+	float: left;
+	padding: 10px 0;
+}
+section#right-footer {
+	float: right;
+	padding: 10px 0;
+}
