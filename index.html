@@ -2,7 +2,10 @@
 <html>
 <head>
 	<title>Google Clone</title>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/index.js"></script>
 </head>
 <body>
 	<header>
@@ -13,9 +16,66 @@
 		<nav id="right-nav">
 			<a class="g-links" href="#">Gmail</a>
 			<a class="g-links" href="#">Images</a>
-			<a class="g-links g-image-links" href="#">
-				<img id="google-apps-img" src="images/google-apps.png">
-			</a>
+			<section id="dropdown">
+				<a id="g-apps-link" class="g-links g-image-links" href="#">
+					<img id="google-apps-img" src="images/google-apps.png">
+				</a>
+				<section id="pointer"></section>
+				<section id="g-apps-dd-container">
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/account.png">
+						Account
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/search.png">
+						Search
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/maps.png">
+						Maps
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/youtube.png">
+						YouTube
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/play.png">
+						Play
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/news.png">
+						News
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/gmail.png">
+						Gmail
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/contacts.png">
+						Contacts
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/drive.png">
+						Drive
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/calendar.png">
+						Calendar
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/googleplus.png">
+						Google+
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/translate.png">
+						Translate
+					</a>
+					<a class="g-apps-dd-link" href="#">
+						<img class="g-apps-dd-images" src="images/photos.png">
+						Photos
+					</a>
+				</section>
+			</section>
 			<a class="g-links g-image-links" href="#">
 				<img id="google-notifications-img" src="images/google-notifications.png">
 			</a>

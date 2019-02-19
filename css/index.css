@@ -44,12 +44,61 @@ img#google-notifications-img {
 }
 button#sign-in-button {
 	border: none;
-    padding: 10px 15px;
-    font-size: 12.5px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #198cf3;
-    cursor: pointer;
+	padding: 10px 15px;
+	font-size: 12.5px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #198cf3;
+	cursor: pointer;
+}
+section#dropdown {
+	display: inline-block;
+	position: relative;
+}
+section#g-apps-dd-container {
+	width: 320px;
+	position: absolute;
+	border: 1px solid green;
+	padding: 1rem;
+	right: -128px;
+	top: 50px;
+	border: 1px solid #dadada;
+	background-color: #fff;
+	z-index: 1;
+	max-height: 380px;
+	overflow-y: scroll;
+	display: none;
+}
+a.g-apps-dd-link {
+	display: inline-block;
+	padding: 8px;
+	width: 70px;
+	text-align: center;
+	margin: 8px;
+	color: #333333;
+	text-decoration: none;
+}
+a.g-apps-dd-link:hover {
+	border: 1px solid #eee;
+	margin: 7px;
+}
+img.g-app-dd-images {
+	display: block;
+	margin: 0 auto 8px;
+}
+section#pointer {
+	position: absolute;
+	top: 42px;
+	width: 15px;
+	height: 15px;
+	right: 15px;
+	border: 1px solid #dadada;
+	border-bottom: 0;
+	border-right: 0;
+	z-index: 2;
+	transform: rotate(45deg);
+	background-color: #fff;
+	display: none;
 }
 
 /* -------- MAIN CONTENT -------- */
@@ -80,19 +129,19 @@ input#search-input {
 }
 img#microphone-img {
 	width: 14px;
-    position: absolute;
-    bottom: 9px;
-    right: 12px;
+	position: absolute;
+	bottom: 9px;
+	right: 12px;
 }
 button.google-search-button {
-    border: none;
-    margin: 0 5px;
+	border: none;
+	margin: 0 5px;
 	padding: 10px 15px;
-    font-size: 12.5px;
-    font-weight: bold;
-    color: #636363;
-    background-color: #f1f1f1;
-    cursor: pointer;
+	font-size: 12.5px;
+	font-weight: bold;
+	color: #636363;
+	background-color: #f1f1f1;
+	cursor: pointer;
 }
 
 /* -------- PAGE FOOTER -------- */
